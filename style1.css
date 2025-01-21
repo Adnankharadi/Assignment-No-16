@@ -1,0 +1,64 @@
+.top{
+    background: rgb(2,0,36);
+    background: linear-gradient(119deg, rgb(0, 0, 0) 50%, rgba(255,255,255,1) 50%);
+    border: 3px solid black;
+    /* margin: 30px auto; */
+    height: 80vh;
+    width: 60vw;
+}
+.text h1{
+    text-transform: uppercase;
+    font-size: 34px;
+    color: white;
+    padding: 5px;
+}
+h1{
+    font-family:'Times New Roman', Times, serif;
+}
+h2{
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 90px;
+}
+form h2{
+    border-bottom: 3px solid black;
+    margin-left: 70px;
+    margin-right: 90px;
+}
+.text p{
+    color: white;
+    font-size: 20px;
+}
+.text{
+    padding: 20px;
+    margin: 20px;
+}
+.form{
+    position: absolute;
+    left: 500px;
+    top: 20px;
+    margin: 25px;
+    width: 20vw;
+    height: 90vh;
+}
+.form form button{
+    border: 1px solid rgb(19, 19, 88);
+    background-color: rgb(11, 11, 68);
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 10px;
+    font-weight: bold;
+    width: 210px;
+}
+p a{
+    text-decoration: none;
+}
+input{
+    border: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid grey;
+    margin: 10px 0 10px 0;
+}
